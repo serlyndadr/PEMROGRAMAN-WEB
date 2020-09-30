@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: System, serif;
+}
+body{
+	background-image: url(matahari.jpg);
+	background-size: cover;
+
+}
+
+.kotak{
+	width: 800px;
+	height: 800px;
+	background: rgba(0,0,0,0.8);
+	margin : 45px auto;
+}
+
+.kotak h1 {
+  margin-top: 7px;
+  padding: 35px;
+  color: grey;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 20px solid #999;
+  line-height:2px
+}
+
+.kotak img{
+    float: right;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+	
+	
+#a{
+   	color: #FFF633; /*perkenalan*/
+   	font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   	position: relative;
+   	top: 15px;
+   	left: 10px;
+   	right: 20px;
+   	margin-bottom: 50px;
+}
+
+div#resume { /*tulisan sd smp dll*/  
+  min-width: 310px;
+  font: 16px Helvetica, Avernir, sans-serif;
+  line-height: 24px;
+  color: 	#C4C9FB
+}
+
+/* jarak sd smp sma */
+div#resume p {
+  margin: 0 0 17px 0
+}
+
+div#resume dt { /*TULISAN EDUCATION HOBBI*/
+  border-radius: 15px; 
+  margin: 0; 
+  text-align: justify;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: right;
+  padding: 0 26px 0 0;
+  width: 150px;
+  border-right: 1px solid #999
+}
+
+div#resume dl {
+  display: table-row
+}
+
+div#resume dl dt, /*untuk garis lengkungnya*/
+div#resume dl dd {
+  display: table-cell;
+  padding-bottom: 10px
+}
+
+div#resume dl dd { /*jarak garis lengkung sama isi sebelahnya*/
+  width: 500px;
+  padding-left: 50px
+}
+
+ {
+  body {
+    margin: 1rem
+  }
+}
+
